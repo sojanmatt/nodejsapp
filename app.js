@@ -20,6 +20,7 @@ var gumball_endpoint = "http://54.201.23.226:8000/goapi/gumball";
 var order_endpoint = "http://54.201.23.226:8000/goapi/order";
 //var apikey = "7df4616d41484445a65bcf1192ab211c";
 var apikey = "d12da41702034e7f89e4ebcaea3fb69e";
+var port = process.env.PORT || 8080;
 
 // added in v3: handlebars
 // https://www.npmjs.org/package/express3-handlebars
